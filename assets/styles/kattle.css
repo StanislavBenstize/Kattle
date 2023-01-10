@@ -1,0 +1,67 @@
+.kattleWrap {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 50vw;
+   height: 50vh;
+   min-width: 500px;
+   min-height: 500px;
+   border: none;
+}
+.kattleAnim {
+   width: 100%;
+   height: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.kattleControlPanel {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   height: 30%;
+}
+
+.kattleBtn {
+   background-color: rgb(0, 16, 243);
+   color: yellow;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 5rem;
+   height: 2rem;
+   border-radius: 0.5rem;
+}
+.add:hover {
+   text-transform: uppercase;
+   font-size: 1.25rem;
+   height: 3rem;
+   transition: 0.5s;
+}
+.sub:hover {
+   text-transform: lowercase;
+   font-size: 0.5rem;
+   height: 1rem;
+   transition: 0.5s;
+}
+.kattleStart:hover {
+   background-color: red;
+   transform: rotate(1turn);
+   transition: 0.3s;
+}
+
+.kattleContent {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   max-width: 60%;
+   text-align: center;
+  
+
+   box-sizing: content-box;
+   border: none;
+
+}

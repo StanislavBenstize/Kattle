@@ -5,19 +5,26 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <script src="./assets/kattle.js"></script>
+      <script src="./assets/kattle.js" defer></script>
       <script src="./assets/sandbox.js" defer></script>
       <script src="./assets/index.js" defer></script>
+      <link rel="stylesheet" href="./assets/styles/style.css" />
+      <link rel="stylesheet" href="./assets/styles/kattle.css" />
+
       <title>Document</title>
    </head>
    <body>
       <div class="wrapper">
          <section class="kattleWrap">
-            <article class="kattleAnim"></article>
-            <article class="kattleControlPanel"></article>
-            <button class="kattleBtnAdd"></button>
-            <p></p>
-            <button class="kattleBtnSub"></button>
+            <article class="kattleAnim">
+               <button class="kattleBtn kattleStart">Начать игру</button>
+
+            </article>
+            <article class="kattleControlPanel">
+               <button class="kattleBtn add">Add water</button>
+               <p class="kattleContent">Добрый день, everybody!</p>
+               <button class="kattleBtn sub">Sub water</button>
+            </article>
          </section>
       </div>
    </body>
